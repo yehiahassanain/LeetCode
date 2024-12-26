@@ -1,15 +1,10 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        if (s.size()!=t.size()) return false;
-        for ( int i = 0 ; i < s.size() ; i++) {
-            if (s.find(t[i]) == std::string::npos) {
-                return false;
-            }
-            if (s.find(t[i]) != std::string::npos) {
-                s[s.find(t[i])] = '0';
-            }
-        }
-        return true;
+         sort(s.begin(), s.end());
+        sort(t.begin(), t.end());
+        if (s==t)
+            return true;
+        return false;
     }
 };
