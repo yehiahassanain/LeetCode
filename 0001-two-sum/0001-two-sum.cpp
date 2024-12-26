@@ -1,20 +1,20 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        vector<int> ve;
-        bool flag = false;
-        for (int i = 0; i < nums.size(); i++) {
-            for (int j = i + 1; j < nums.size(); j++) {
-                if (nums[i] + nums[j] == target) {
-                    ve.push_back(i);
-                    ve.push_back(j);
-                    flag = true;
-                    break;
-                }
-            }
-            if (flag)
-                break;
+map<int,int>mp;
+        vector<int>res;
+        for (int i=0;i<nums.size();i++){
+            mp.insert({nums[i],i});
         }
-        return ve;
+        for (int i=0;i<nums.size();i++){
+            int val = target - nums[i];
+            auto sec_num = *mp.find(val);
+            if (mp.find(val)!=mp.end()&&i!=sec_num.second){
+                res.push_back(i);
+                res.push_back(sec_num.second);
+                break;
+            }
+        }
+        return res;
     }
 };
