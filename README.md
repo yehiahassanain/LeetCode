@@ -33,6 +33,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/yehiahassanain/LeetCode/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/yehiahassanain/LeetCode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/yehiahassanain/LeetCode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/yehiahassanain/LeetCode/tree/master/0242-valid-anagram) |
 ## Divide and Conquer
@@ -81,4 +82,12 @@
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/yehiahassanain/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/yehiahassanain/LeetCode/tree/master/0022-generate-parentheses) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/yehiahassanain/LeetCode/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
